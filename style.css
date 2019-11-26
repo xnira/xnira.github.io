@@ -1,0 +1,86 @@
+body{
+    background-color: #212121;
+    color: #ffffff;
+
+    margin: 0; padding: 0;
+
+    overflow: hidden;
+}
+
+#center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+#fake{
+    font-size: 10vw;
+    font-family: sans-serif;
+    margin-left: 0.5vw;
+
+    opacity: 0;
+}
+
+
+#Nira{
+    font-family: sans-serif;
+    font-size: 10vw;
+}
+
+#r{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-55%);
+
+    color: #FF0000;
+    mix-blend-mode: difference;
+}
+#g{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-55%);
+
+    color: #00FF00;
+    mix-blend-mode: difference;
+}
+#b{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-55%);
+
+    color: #0000FF;
+    mix-blend-mode: difference;
+}
+
+#comingnever, #r, #g, #b, #timer{
+    text-shadow: .2vw .2vw .1vw rgb(25, 172, 128);
+}
+
+#canvas{
+    margin: 0; padding: 0;
+}
+
+
+::selection {
+    color: white;
+    background: magenta;
+}
+::-moz-selection {
+    color: white;
+    background: magenta;
+}
